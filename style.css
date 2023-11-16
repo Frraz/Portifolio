@@ -1,0 +1,202 @@
+* {
+    scrollbar-color: #14e956;
+    scrollbar-width: thin;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho {
+    height: 5rem;
+    background-color: #1c0735;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.texto-principal {
+    top: 20%;
+    display: block;
+    position: absolute;
+    width: 400px;
+    /* left: 10%; */
+    /* border: 3px solid black; */
+    font-family: 'Courier New', Courier, monospace;
+
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    /* padding: 1rem; */
+    padding: 1rem;
+    padding-top: 3rem;
+    left: 10%;
+
+}
+
+.home {
+    height: calc(100vh - 5rem);
+    background-color: #351955;
+    margin: 0;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    width: 100%;
+}
+
+
+.developer-intro {
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.developer-intro p {
+    padding: 5px 10px;
+    margin: 0 20px 0 0;
+    background-color: #64f4ac;
+    color: #2d2e32;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2.5px;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: inherit;
+    color: white;
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+
+}
+
+h2 {
+    color: white;
+    display: block;
+}
+
+.circle {
+    /* border: 2px solid green; */
+
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    right: 22%;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    animation: animateCircle 40s linear infinite;
+    z-index: 1;
+}
+
+.cardcodigo {
+    display: block;
+    position: absolute;
+    right: 4%;
+    top: 10%;
+
+    width: 390px;
+    height: 154px;
+    margin: 10;
+    background-color: #011522;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circulo {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+
+.card__content {
+    color: white;
+    padding: 2%;
+}
+
+@keyframes animateCircle {
+    0% {
+        transform: perspective(1000px) rotateY(0deg) rotateX(15deg) translateY(-30px);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);
+    }
+}
+
+.circle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    background-color: #6d6d6d6c;
+    /* box-shadow: 0px 0px 5px #00000080; */
+    border-radius: 50%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * calc(360deg / 10))) translateZ(300px);
+}
+
+.circle span img {
+    position: relative;
+    top: 7px;
+    left: 7px;
+    object-fit: cover;
+}
+
+.skills {
+    height: calc(100vh - 5rem);
+    background-color: #00665e;
+}
+
+.repositorios {
+    height: calc(100vh - 5rem);
+    background-color: #003066;
+}
+
+.contatos {
+    height: calc(100vh - 15rem);
+    background-color: #0f0046;
+}
+
+.footer {
+    height: calc(100vh - 5rem);
+    height: 10rem;
+    background-color: #460035;
+}
