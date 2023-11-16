@@ -20,9 +20,7 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    /* overflow-x: hidden; */
-    overflow-y: hidden;
-    width: 100%;
+    overflow-x: hidden;
 }
 
 .main {
@@ -115,7 +113,7 @@ h2 {
     position: absolute;
     display: block;
     bottom: 10%;
-    right: 22%;
+    right: 30%;
     width: 100px;
     height: 100px;
     transform-style: preserve-3d;
