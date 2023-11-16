@@ -20,8 +20,8 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    overflow-x: hidden;
-    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+    overflow-y: hidden;
 }
 
 .main {
