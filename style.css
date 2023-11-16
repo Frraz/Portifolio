@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
 }
-
 .cabecalho {
     height: 5rem;
     background-color: #1c0735;
@@ -15,6 +14,12 @@
     z-index: 1;
     display: block;
 
+}
+
+body{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .main {
