@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
 }
+
 .cabecalho {
     height: 5rem;
     background-color: #1c0735;
@@ -16,7 +17,7 @@
 
 }
 
-body{
+body {
     position: fixed;
     top: 0;
     width: 100%;
@@ -42,13 +43,13 @@ body{
 
     padding-left: 5px;
     padding-right: 5px;
-    
+
 
 }
 
 .texto-principal {
-    
-    top: 40%;
+
+    top: 32%;
     display: block;
     position: absolute;
     width: auto;
@@ -66,7 +67,7 @@ body{
     padding: 1rem;
     padding-top: 3rem;
     margin: 10px;
-    z-index: -1;
+    z-index: 1;
 }
 
 
@@ -92,7 +93,7 @@ body{
     cursor: pointer;
 }
 
-h1 {
+.homeH1 {
     font-family: inherit;
     color: white;
     font-size: 1.8rem;
@@ -101,7 +102,7 @@ h1 {
 
 }
 
-h2 {
+.homeH2 {
     color: white;
     display: block;
     font-size: 1rem;
@@ -112,7 +113,7 @@ h2 {
     /* border: 2px solid green; */
     position: absolute;
     display: block;
-    bottom: 10%;
+    bottom: 15%;
     right: 30%;
     width: 100px;
     height: 100px;
@@ -139,7 +140,7 @@ h2 {
     border-radius: 8px;
     position: absolute;
     right: 0px;
-    
+
 
 }
 
@@ -211,9 +212,135 @@ h2 {
     object-fit: cover;
 }
 
-.skills {
+.academic {
     height: calc(100vh - 5rem);
     background-color: #00665e;
+}
+
+.AcademyCentro {
+    top: 2%;
+    position: absolute;
+    display: block;
+    height: 30%;
+    right: 4%;
+    left: 4%;
+    /* border: 1px rgb(76, 240, 0) solid; */
+
+
+    font-family: 'Courier New', Courier, monospace;
+
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+    /* padding-top: 3rem; */
+    margin: 10px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoCentro {
+    /* border: 2px solid #00ca4e; */
+    display: flex;
+    height: 83px;
+    position: relative;
+}
+
+.logoUniasselvi {
+
+    width: 93px;
+    height: 93px;
+}
+
+.textosAcademicCentro {
+    margin: 5px;
+
+}
+
+h3.H3Academic {
+    font-size: 16px;
+}
+
+pre.PreAcademic {
+    font-size: 8px;
+}
+
+.ladoEsquerdo {
+    top: 41%;
+    position: absolute;
+    display: block;
+    width: 34%;
+    height: 50%;
+    right: 51%;
+    /* border: 1px rgb( 34, 0, 116) solid; */
+
+    font-family: 'Courier New', Courier, monospace;
+
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+    /* padding-top: 3rem; */
+
+    z-index: 1;
+    margin-right: 0px;
+}
+
+.ladoDireito {
+    top: 41%;
+    position: absolute;
+    display: block;
+    width: 34%;
+    height: 50%;
+    left: 51%;
+
+    /* border: 1px rgb(0, 0, 0) solid; */
+
+    font-family: 'Courier New', Courier, monospace;
+
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #FFFFFF25;
+    border-radius: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+    /* padding-top: 3rem; */
+
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.barraDeProgresso{
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    width: 90%;
+}
+
+.progress-bar {
+    height: 25px;
+    width: 100%
+
+    
+}
+
+div.porcen {
+    right: 50%;
+    left: 50%;
+    position: absolute;
+    bottom: 3px;
 }
 
 .repositorios {
@@ -224,6 +351,7 @@ h2 {
 .contatos {
     height: calc(100vh - 15rem);
     background-color: #0f0046;
+    height: 10px;
 }
 
 .footer {
