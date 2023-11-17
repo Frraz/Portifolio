@@ -351,6 +351,8 @@ div.porcen {
 }
 
 h5.cursos {
+    position: relative;
+    top: -20p;
     font-size: 15px;
     display: block;
     /* order: 2px red solid; */
@@ -368,14 +370,27 @@ div.curso {
     max-width: 300px;
     align-items: center;
     font-size: 8px;
-    
+
 }
 
 img.curso {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 120px;
+    max-height: 80px;
     width: auto;
     height: auto;
+
+
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+
+.curso:hover img {
+    -webkit-transform: scale(2.5);
+    transform: scale(2.5);
+
 }
 
 .repositorios {
