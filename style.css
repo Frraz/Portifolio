@@ -294,6 +294,10 @@ pre.PreAcademic {
 
     z-index: 1;
     margin-right: 0px;
+
+    flex-wrap: wrap;
+
+    text-align: center;
 }
 
 .ladoDireito {
@@ -322,7 +326,7 @@ pre.PreAcademic {
     margin-left: 0px;
 }
 
-.barraDeProgresso{
+.barraDeProgresso {
     position: absolute;
     display: block;
     bottom: 15px;
@@ -332,8 +336,6 @@ pre.PreAcademic {
 .progress-bar {
     height: 25px;
     width: 100%
-
-    
 }
 
 div.porcen {
@@ -341,6 +343,39 @@ div.porcen {
     left: 50%;
     position: absolute;
     bottom: 3px;
+}
+
+.curso1 .curso2 .curso3 {
+    display: block;
+    border: 2px red solid;
+}
+
+h5.cursos {
+    font-size: 15px;
+    display: block;
+    b/* order: 2px red solid; */
+}
+
+div.curso {
+    /* border: 2px red solid; */
+    margin: 10px;
+    display: block;
+}
+
+.ladoEsquerdo a {
+    display: inline-block;
+    position: relative;
+    max-width: 300px;
+    align-items: center;
+    font-size: 8px;
+    
+}
+
+img.curso {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
 }
 
 .repositorios {
