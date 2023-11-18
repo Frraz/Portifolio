@@ -14,7 +14,19 @@
     top: 0;
     position: sticky;
     z-index: 1;
-    width: 100%;    
+    display: flex;
+   /*  border: #00ca4e solid 5px; */
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.logoNav{
+    /* border: red solid 2px; */
+    margin-left: 40px;
+    margin-right: 40px;
 
 }
 
