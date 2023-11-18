@@ -5,6 +5,7 @@
     transform: translateZ(0);
     padding: 0;
     margin: 0;
+    
 }
 
 .cabecalho {
@@ -23,6 +24,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 .main {
