@@ -109,7 +109,7 @@ body {
 }
 
 .circle {
-    display: flex;
+    display: block;
     /* border: 2px solid green; */
     position: absolute;
     display: block;
@@ -119,8 +119,9 @@ body {
     height: 100px;
     transform-style: preserve-3d;
     animation: animateCircle 40s linear infinite;
-    z-index: 1;
-    max-width: 100%;
+    /* z-index: 1;
+    max-width: 100%; */
+    
 }
 
 
@@ -384,13 +385,6 @@ img.curso {
     height: 100%;
     -webkit-transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
-}
-
-
-.curso:hover img {
-    -webkit-transform: scale(2.5);
-    transform: scale(2.5);
-
 }
 
 .repositorios {
