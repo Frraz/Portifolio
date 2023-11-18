@@ -22,6 +22,7 @@ body {
     top: 0;
     width: 100%;
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 .main {
@@ -109,6 +110,7 @@ body {
 }
 
 .circle {
+    
     display: block;
     /* border: 2px solid green; */
     position: absolute;
@@ -122,6 +124,8 @@ body {
     /* z-index: 1;
     max-width: 100%; */
     
+
+    max-width: 100%;
 }
 
 
@@ -204,6 +208,8 @@ body {
     transform-origin: center;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i) * calc(360deg / 10))) translateZ(300px);
+
+    max-width: 100%;
 }
 
 .circle span img {
@@ -211,6 +217,7 @@ body {
     top: 7px;
     left: 7px;
     object-fit: cover;
+    max-width: 100%;
 }
 
 .academic {
@@ -395,7 +402,6 @@ img.curso {
 .contatos {
     height: calc(100vh - 15rem);
     background-color: #0f0046;
-    height: 10px;
 }
 
 .footer {
